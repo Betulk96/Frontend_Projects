@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors-2</title>
+    <link rel="stylesheet" href="/assets/css/07-style.css" />
+    
+  </head>
+  <style>
+    h1.title {
+      /* yukarıda link verdiğimiz  altta olsaydı o geçerli olurdu .kod yukarıdan aşağıya okunur.*/
+      color: red;
+      background-color: aqua !important; /* important yapınca baskın oldu */
+    }
+    h2.baslik.renk.aktif {
+        background-color: gold !important;
+      }
+  </style>
+  <body>
+    <h1 class="title" style="background-color: lime; color: #000">Hello CSS</h1>
+
+       
+    <h2
+      class="baslik renk aktif"
+      style="color: rgb(5, 0, 1); background-color: rgb(201, 26, 93)"
+    >
+      Title 2
+    </h2>
+    <p class="p-1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto amet
+      quia quos illum cupiditate ipsa exercitationem vero quod numquam, ab
+      laboriosam sint iusto. Delectus modi expedita, accusantium voluptatibus
+      necessitatibus repellat!
+    </p>
+    
+    <p id="pId">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+      repellat quis eius aut non id, quasi debitis temporibus saepe ad deleniti.
+      Perspiciatis illo aliquid ad ut vel? Repudiandae, distinctio deserunt.
+    </p>
+    <p class="p-2">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum totam
+      odio, <span class="spanEl">neque ipsa aut amet voluptas</span> omnis
+      possimus aspernatur quas eveniet id quasi labore accusamus vel alias esse
+      est repellat.
+    </p>
+  </body>
+</html>

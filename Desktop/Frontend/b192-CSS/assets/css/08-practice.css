@@ -1,0 +1,16 @@
+nav.menu{
+    background-color:rgb(255, 238, 0) ;
+    color: rgb(198, 34, 61);
+    text-align: center;
+    width: 300px;
+   
+}
+nav.menu div.active{
+    background-color: blueviolet;
+    color: rgb(219, 198, 198);
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: royalblue;
+}
