@@ -1,0 +1,34 @@
+@import "./variables";
+@import "bootstrap/scss/bootstrap";
+@import "./tailwind.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative; 
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7; 
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-custom {
+  @apply bg-color1 text-color4 py-2 px-4 rounded;
+}

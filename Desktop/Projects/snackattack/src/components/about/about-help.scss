@@ -1,0 +1,27 @@
+@use "../../styles/variables" as v;
+@use "../../styles/mixins" as m;
+
+.help-container {
+  @include m.flex($jc: space-evenly, $ai: center, $gap: 20px);
+  .help-contact {
+    @include m.flex($jc: center, $ai: center, $gap: 50px);
+    .contact-btn {
+      @include m.border-radius(30%);
+      font-size: 1.5rem;
+      border: 1px solid v.$color1;
+      padding: 15px;
+      background-color:v.$color3;
+      color: v.$color1;
+      font-weight: 650;
+
+      &:hover {
+        background-color: v.$color1;
+        color: v.$color3;
+      }
+
+    }
+  }
+  .help-text{
+    text-align: center;
+  }
+}

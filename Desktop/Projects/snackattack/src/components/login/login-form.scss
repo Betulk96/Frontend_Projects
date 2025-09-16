@@ -1,0 +1,21 @@
+@use "../../styles/variables" as v;
+
+.container {
+  .card {
+    padding: 20px;
+    border: 1px solid v.$color1;
+    box-shadow: 3px 3px 8px v.$color1, -3px -3px 8px v.$color1;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+    color: v.$color1;
+    font-size: 1.3rem;
+  }
+
+  button[type="submit"],
+  .btn-create {
+    width: 100%;
+    padding: 10px;
+  }
+}
